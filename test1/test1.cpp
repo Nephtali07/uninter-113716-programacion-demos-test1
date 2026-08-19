@@ -12,8 +12,22 @@ Fecha de modificación: 19/08/2026
 */
 
 
+#include <iostream>
+
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+	int a = 0;
+	int b = 0;
+	int suma = 0;
 
+	printf("Digite un numero: ");
+	scanf_s("%d", &a);
+
+	printf("Digite otro numero: ");
+	scanf_s("%d", &b);
+
+	suma = a + b;
+
+	std::cout << "La suma de " << a << " y " << b << " es: " << suma << std::endl;
+
+}
